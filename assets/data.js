@@ -3,7 +3,7 @@ window.ACTUALITAT_1R = [{
  "slug": "oques-grasses-ultim-concert",
  "data": "2026-10-11",
  "seccio": "Directe",
- "minuts": 12,
+ "minuts": 20,
  "fonts": [
   {
    "mitja": "Ara",
@@ -22,6 +22,24 @@ window.ACTUALITAT_1R = [{
    "titol": "El comiat d'Oques Grasses: com han aconseguit omplir quatre Estadis Olímpics?",
    "url": "https://www.3cat.cat/3catinfo/el-comiat-doques-grasses-el-primer-grup-que-omple-quatre-estadis-olimpics-cantant-en-catala/noticia/3433466/",
    "data": "2026-10"
+  },
+  {
+   "mitja": "Primera Fila",
+   "titol": "Oques Grasses ajorna a dijous el primer concert de «L'últim concert» a l'Estadi Olímpic",
+   "url": "https://primerafila.cat/actualitat/noticies/2026/10/oques-grasses-ajorna-a-dijous-el-primer-concert-de-lultim-concert-a-lestadi-olimpic/",
+   "data": "2026-10"
+  },
+  {
+   "mitja": "Primera Fila",
+   "titol": "Oques Grasses s'acomiadarà amb un concert a l'Estadi Olímpic el 10 d'octubre de 2026",
+   "url": "https://primerafila.cat/actualitat/noticies/2025/11/oques-grasses-sacomiadara-amb-un-concert-a-lestadi-olimpic-el-10-doctubre-del-2026/",
+   "data": "2025-11"
+  },
+  {
+   "mitja": "Ara",
+   "titol": "Oques Grasses triomfen al Palau Sant Jordi davant de 18.400 persones",
+   "url": "https://www.ara.cat/cultura/musica/oques-grasses-triomfen-palau-sant-jordi-davant-18-400-persones_1_4612397.html",
+   "data": "2023-01"
   }
  ],
  "title": "L'últim concert",
@@ -49,6 +67,26 @@ window.ACTUALITAT_1R = [{
     [
      "secció de vent",
      "els instruments que sonen quan hi bufes: trompeta, trombó, saxo…"
+    ],
+    [
+     "estil",
+     "la manera de fer música: reggae, pop, funk, rock…"
+    ],
+    [
+     "sintetitzador",
+     "un teclat electrònic que crea sons nous"
+    ],
+    [
+     "gira",
+     "sèrie de concerts en ciutats diferents"
+    ],
+    [
+     "plegar",
+     "deixar de fer una cosa per sempre (un grup, una feina…)"
+    ],
+    [
+     "tornada",
+     "la part d'una cançó que es repeteix i que tothom canta"
     ]
    ]
   },
@@ -112,10 +150,13 @@ window.ACTUALITAT_1R = [{
    "h": "Qui són?"
   },
   {
-   "p": "Oques Grasses són de <b>Roda de Ter</b>. És un poble d'Osona. El grup neix l'any 2010. El cantant es diu <b>Josep Montero</b>. Abans era <b>electricista</b>. Un dia canvia de feina. Ara és músic."
+   "p": "Oques Grasses són de <b>Roda de Ter</b>. És un poble d'Osona. El grup neix l'any <b>2010</b>. Un any després fan el primer concert. És a Sant Quirze de Besora, un poble molt a prop."
   },
   {
-   "p": "El grup té set músics. Toquen bateria, baix i teclats. També tenen una <dfn>secció de vent</dfn>. Són la <b>trompeta</b>, el <b>trombó</b> i el <b>saxo</b>. Al principi fan reggae. Després hi afegeixen pop, funk i electrònica."
+   "p": "El cantant es diu <b>Josep Montero</b>. Abans era <b>electricista</b>. Als 26 anys pren una decisió: vol viure de la música. Molta gent pensa que és una bogeria. Però ell ho prova."
+  },
+  {
+   "p": "El grup té <b>set músics</b>. Toquen bateria, baix i teclats. També tenen una <dfn>secció de vent</dfn>: la <b>trompeta</b>, el <b>trombó</b> i el <b>saxo</b>. Molts han estudiat a l'<b>ESMUC</b>, l'escola superior de música de Catalunya."
   },
   {
    "preg": [
@@ -132,7 +173,7 @@ window.ACTUALITAT_1R = [{
     {
      "q": "Josep Montero era electricista abans de ser músic.",
      "a": "V",
-     "fb": "Un dia va decidir canviar de feina."
+     "fb": "Als 26 anys va decidir viure de la música."
     },
     {
      "q": "Quins instruments de vent té el grup?",
@@ -147,10 +188,80 @@ window.ACTUALITAT_1R = [{
    ]
   },
   {
+   "h": "Disc a disc"
+  },
+  {
+   "p": "Oques Grasses han fet <b>sis discos</b>. El primer surt el 2012. L'últim, el 2024. Es diu <b>«Fruit del deliri»</b>."
+  },
+  {
+   "p": "Al principi toquen <b>reggae</b> amb melodies de <b>pop</b>. Després, disc a disc, canvien d'<dfn>estil</dfn>. Hi afegeixen <b>funk</b>, música <b>electrònica</b>, ritmes <b>llatins</b> i fins i tot <b>hip-hop</b>. Al darrer disc, els <dfn data-v=sintetitzador>sintetitzadors</dfn> sonen molt."
+  },
+  {
+   "preg": [
+    {
+     "q": "Quants discos han fet Oques Grasses?",
+     "opts": [
+      "Dos",
+      "Sis",
+      "Vint"
+     ],
+     "a": 1,
+     "fb": "Sis discos, del 2012 al 2024."
+    },
+    {
+     "q": "Amb quin estil van començar?",
+     "opts": [
+      "Reggae amb melodies de pop",
+      "Rock dur",
+      "Música clàssica"
+     ],
+     "a": 0,
+     "fb": "Després hi van afegir funk, electrònica, ritmes llatins i hip-hop."
+    },
+    {
+     "q": "Oques Grasses han tocat sempre el mateix estil.",
+     "a": "F",
+     "fb": "Han anat canviant disc a disc."
+    }
+   ]
+  },
+  {
+   "h": "El camí fins a l'Estadi"
+  },
+  {
+   "p": "L'any <b>2023</b> fan un concert molt gran. És al <b>Palau Sant Jordi</b>, a Barcelona. Hi van <b>18.400 persones</b>. Sembla que no poden arribar més amunt. Però s'equivoquen!"
+  },
+  {
+   "p": "L'any 2025 fan una <dfn>gira</dfn> molt curta: només <b>set concerts</b>. A l'últim, a Montmeló, Josep Montero diu una frase misteriosa:"
+  },
+  {
+   "quote": "Hi haurà un dia que serà l'últim concert, però no serà avui.",
+   "who": "Josep Montero, a Montmeló (novembre de 2025)"
+  },
+  {
+   "preg": [
+    {
+     "q": "On van fer el gran concert del 2023?",
+     "opts": [
+      "Al Palau Sant Jordi",
+      "A Roda de Ter",
+      "A Madrid"
+     ],
+     "a": 0,
+     "fb": "Davant de 18.400 persones."
+    },
+    {
+     "q": "A Montmeló, Josep Montero va dir que aquell era l'últim concert.",
+     "a": "F",
+     "fb": "Va dir que algun dia arribaria l'últim concert, però que no era aquell."
+    }
+   ]
+  },
+  {
    "h": "Entrades volant"
   },
   {
-   "p": "El grup anuncia el comiat el novembre de 2025. Les entrades valen entre 35 i 60 euros. <dfn data-v=esgotar-se>S'esgoten</dfn> en <b>21 minuts</b>! Molta gent es queda sense. Per això, el grup afegeix més concerts. Al final, en són quatre."
+   "p": "Vuit dies després, el <b>9 de novembre de 2025</b>, ho anuncien: <dfn data-v=plegar>pleguen</dfn>. Faran un últim concert a l'Estadi Olímpic. Les entrades valen entre 35 i 60 euros. <dfn data-v=esgotar-se>S'esgoten</dfn> en <b>21 minuts</b>! Molta gent es queda sense. Per això, el grup afegeix més concerts. Al final, en són quatre."
   },
   {
    "p": "Un concert <b>canvia de dia</b>. Era el dilluns 5. Però aquell dia ha de <b>ploure molt</b>. És perillós. Per això, el passen al <b>dijous 8</b>."
@@ -184,6 +295,9 @@ window.ACTUALITAT_1R = [{
    "p": "Amb la cançó «John Brown», alguns fans <b>pugen a l'escenari</b>. Hi ballen amb el grup. Amb «Pingpong», tothom encén la <b>llum del mòbil</b>. L'estadi sembla un cel ple d'estrelles."
   },
   {
+   "p": "Toquen cançons de <b>quinze anys</b> de carrera: «Petar-ho», «Elefants», «La gent que estimo»… A les grades hi ha joves, famílies senceres i adults. Pares i fills canten la mateixa <dfn>tornada</dfn>. I qui no hi és, ho mira des de casa: <b>TV3</b> fa l'últim concert en directe."
+  },
+  {
    "quote": "És l'últim concert, però no volem que sigui un concert trist.",
    "who": "Josep Montero"
   },
@@ -203,6 +317,47 @@ window.ACTUALITAT_1R = [{
      "q": "Durant «John Brown», alguns fans van pujar a l'escenari.",
      "a": "V",
      "fb": "Hi van pujar a ballar amb el grup."
+    },
+    {
+     "q": "Què és la tornada d'una cançó?",
+     "opts": [
+      "La part que es repeteix i que tothom canta",
+      "La primera nota",
+      "El silenci del final"
+     ],
+     "a": 0,
+     "fb": "Per això tot l'estadi la cantava alhora."
+    }
+   ]
+  },
+  {
+   "h": "Per què agraden tant?"
+  },
+  {
+   "p": "Hi ha <b>tres claus</b>. <b>Primera: les lletres.</b> Parlen de coses de cada dia: l'amistat, l'amor, la gent que estimes, les ganes de festa. I tenen molt d'humor."
+  },
+  {
+   "p": "<b>Segona: el directe.</b> Set músics i una secció de vent molt potent. Cada concert és una festa. <b>Tercera: la barreja.</b> No toquen un sol estil. Per això agraden a gent molt diferent."
+  },
+  {
+   "p": "I tot, <b>en català</b>. Molta gent deia que, per ser molt famós, calia cantar en castellà o en anglès. Oques Grasses han demostrat que no."
+  },
+  {
+   "preg": [
+    {
+     "q": "Quina d'aquestes NO és una de les tres claus del seu èxit?",
+     "opts": [
+      "Les lletres",
+      "El directe",
+      "Que les entrades són gratis"
+     ],
+     "a": 2,
+     "fb": "Les entrades costaven entre 35 i 60 euros. Les claus són les lletres, el directe i la barreja."
+    },
+    {
+     "q": "Oques Grasses canten en català.",
+     "a": "V",
+     "fb": "I han omplert quatre vegades l'Estadi Olímpic!"
     }
    ]
   },
