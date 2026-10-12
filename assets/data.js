@@ -387,5 +387,16 @@ window.ACTUALITAT_1R = [{
    "Revisa'l: s'entén des de lluny? Les lletres són prou grans?"
   ],
   "entrega": "descarrega'l en PNG o PDF i penja'l al Classroom."
+ },
+ "llibreta": {
+  "titol": "Sessió de guàrdia: treballa amb la llibreta",
+  "passos": [
+   "Escriu a dalt de la pàgina el <b>títol</b> («L'últim concert») i la <b>data</b> d'avui.",
+   "Llegeix l'article a poc a poc. Les paraules <b>en vermell amb ?</b> es poden tocar: et diuen què volen dir.",
+   "A cada <b>Comprova-ho</b>, respon a la pantalla. Després <b>copia a la llibreta la pregunta i la resposta correcta</b> (la que surt en verd), encara que t'hagis equivocat.",
+   "Al final escriu la <b>teva opinió</b> a la pantalla i també a la llibreta.",
+   "Abans d'acabar, comprova que tens les <b>19 preguntes</b> amb la resposta correcta i la teva opinió. El professor de música revisarà la llibreta.",
+   "Si et sobra temps, fes el cartell de Canva del final."
+  ]
  }
 }];

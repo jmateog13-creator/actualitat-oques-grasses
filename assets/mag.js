@@ -34,13 +34,16 @@
     return '<div class="q" data-k="' + k + '">' + esc(o.q) + '<div class="ops">' + ops + '</div></div>';
   };
 
+  /* `llibreta` = sessió sense professor (guàrdia): instruccions a dalt i cada punt de control
+     recorda que la pregunta i la resposta correcta es copien a la llibreta. */
+  const L = A.llibreta;
   let nc = 0;   // punts de control dins del cos
   const bloc = (b) => b.p ? '<p>' + b.p + '</p>'
     : b.h ? '<h2>' + esc(b.h) + '</h2>'
     : b.quote ? '<blockquote>«' + esc(b.quote) + '»' + (b.who ? '<cite>— ' + esc(b.who) + '</cite>' : '') + '</blockquote>'
     : b.img ? '<figure><img src="' + esc(b.img.src) + '" alt="" loading="lazy" referrerpolicy="no-referrer">' + (b.img.cap ? '<figcaption>' + esc(b.img.cap) + '</figcaption>' : '') + '</figure>'
     : b.vocab ? '<aside class="vocab"><h3>Paraules clau</h3><dl>' + b.vocab.map(([w, d]) => '<dt>' + esc(w) + '</dt><dd>' + esc(d) + '</dd>').join('') + '</dl></aside>'
-    : b.preg ? (() => { const c = nc++; return '<section class="comprova" data-c="' + c + '"><h3>Comprova-ho</h3>'
+    : b.preg ? (() => { const c = nc++; return '<section class="comprova" data-c="' + c + '"><h3>Comprova-ho' + (L ? ' · copia-ho a la llibreta ✏️' : '') + '</h3>'
         + b.preg.map((o, i) => pregunta(o, 'c' + c + '_' + i)).join('') + '</section>'; })()
     : '';
 
@@ -77,6 +80,7 @@
     + '<div class="byline">Per <b>' + esc(A.autor || 'Redacció AulaTech') + '</b> · ' + data + (A.minuts ? ' · ' + A.minuts + ' min de lectura' : '') + '</div></header>'
     + (A.img && A.img.src ? '<figure class="hero"><img src="' + esc(A.img.src) + '" alt="" referrerpolicy="no-referrer">'
       + (A.img.credit ? '<div class="credit">' + esc(A.img.credit) + '</div>' : '') + '</figure>' : '')
+    + (L ? '<aside class="llibreta"><h3>✏️ ' + esc(L.titol) + '</h3><ol>' + (L.passos || []).map((x) => '<li>' + x + '</li>').join('') + '</ol></aside>' : '')
     + '<div class="cos">' + cos + '</div>'
     + '<div class="final"' + (nc ? ' hidden' : '') + '><div class="fi">■</div>' + fonts
     + '<section class="test" aria-label="Test de la redacció"><h2>El test de la <span>redacció</span></h2>'
@@ -84,6 +88,7 @@
     + (qVF ? '<div class="blocq"><h3>Vertader o fals</h3>' + qVF + '</div>' : '')
     + (qMC ? '<div class="blocq"><h3>Tria la correcta</h3>' + qMC + '</div>' : '')
     + '<div class="blocq"><h3>La teva columna</h3><div class="q">' + esc((T.opina && T.opina.q) || 'I tu, què en penses? Argumenta-ho.')
+    + (L ? '<p class="nota">✏️ Copia també la teva opinió a la llibreta.</p>' : '')
     + '<textarea id="opina" maxlength="800" placeholder="Escriu la teva opinió…"></textarea><div class="compta" id="compta"></div></div></div>'
     + '<button class="entrega" id="entrega" disabled>Entrega l\'article</button><div id="premi"></div></section>'
     + taller + '</div>';
