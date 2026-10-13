@@ -393,10 +393,15 @@ window.ACTUALITAT_1R = [{
   "passos": [
    "Escriu a dalt de la pàgina el <b>títol</b> («L'últim concert») i la <b>data</b> d'avui.",
    "Llegeix l'article a poc a poc. Les paraules <b>en vermell amb ?</b> es poden tocar: et diuen què volen dir.",
-   "A cada <b>Comprova-ho</b>, respon a la pantalla. Després <b>copia a la llibreta la pregunta i la resposta correcta</b> (la que surt en verd), encara que t'hagis equivocat.",
+   "A cada <b>Comprova-ho</b>: <b>copia la pregunta</b> a la llibreta i escriu-hi la teva resposta. Després <b>contesta-la a l'ordinador</b>: si no la contestes a la pantalla, <b>no s'obre el paràgraf següent</b>. Quan surti la resposta correcta (en verd), copia-la a la llibreta; si t'havies equivocat, corregeix-la.",
    "Al final escriu la <b>teva opinió</b> a la pantalla i també a la llibreta.",
    "Abans d'acabar, comprova que tens les <b>19 preguntes</b> amb la resposta correcta i la teva opinió. El professor de música revisarà la llibreta.",
    "Si et sobra temps, fes el cartell de Canva del final."
+  ],
+  "comprova": [
+   "Copia la pregunta a la llibreta i escriu-hi la teva resposta.",
+   "Contesta-la aquí, a l'ordinador. <b>Si no la contestes, no s'obre el paràgraf següent.</b>",
+   "Copia a la llibreta la resposta correcta (la verda)."
   ]
  }
 }];

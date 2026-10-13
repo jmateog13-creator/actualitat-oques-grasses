@@ -44,6 +44,7 @@
     : b.img ? '<figure><img src="' + esc(b.img.src) + '" alt="" loading="lazy" referrerpolicy="no-referrer">' + (b.img.cap ? '<figcaption>' + esc(b.img.cap) + '</figcaption>' : '') + '</figure>'
     : b.vocab ? '<aside class="vocab"><h3>Paraules clau</h3><dl>' + b.vocab.map(([w, d]) => '<dt>' + esc(w) + '</dt><dd>' + esc(d) + '</dd>').join('') + '</dl></aside>'
     : b.preg ? (() => { const c = nc++; return '<section class="comprova" data-c="' + c + '"><h3>Comprova-ho' + (L ? ' · copia-ho a la llibreta ✏️' : '') + '</h3>'
+        + (L && L.comprova ? '<ol class="pas">' + L.comprova.map((x) => '<li>' + x + '</li>').join('') + '</ol>' : '')
         + b.preg.map((o, i) => pregunta(o, 'c' + c + '_' + i)).join('') + '</section>'; })()
     : '';
 

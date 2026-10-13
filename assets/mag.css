@@ -111,7 +111,7 @@ img { max-width: 100%; display: block; }
 /* ── Edició de 1r: lletra més gran i aire, punts de control dins del cos ── */
 body.c1 { font-size: 20px; line-height: 1.75; }
 /* DUA · lectura fàcil: tipografia de màxima llegibilitat, més aire, paraules clau que salten a la vista */
-body.c1 .cos p, body.c1 .comprova .q, body.c1 .vocab, body.c1 .taller li, body.c1 .llibreta li {
+body.c1 .cos p, body.c1 .comprova .q, body.c1 .vocab, body.c1 .taller li, body.c1 .llibreta li, body.c1 .comprova .pas {
   font-family: 'Atkinson Hyperlegible', 'Verdana', sans-serif; word-spacing: .08em; }
 body.c1 .cos p { font-size: 21px; line-height: 1.85; margin: 0 0 1.1em; }
 body.c1 .cos b { font-weight: 700; font-size: 1.15em; }  /* idea o dada clau: negreta i més gran, sense subratllar */
@@ -159,6 +159,8 @@ body.c1 .q button { font-family: 'Atkinson Hyperlegible', 'Verdana', sans-serif;
 .llibreta h3 { margin: 0 0 6px; font: 700 13px/1.3 var(--body); letter-spacing: .14em; text-transform: uppercase; color: var(--red); }
 .llibreta ol { margin: 0; padding-left: 1.3em; }
 .llibreta li { margin: 7px 0; }
+.comprova .pas { margin: 8px 0 6px; padding-left: 1.4em; font-size: .92em; line-height: 1.45; }
+.comprova .pas li { margin: 3px 0; }
 .test .nota { margin: 6px 0; font-weight: 700; color: var(--red); }
 .taller { max-width: 760px; margin: 34px auto 0; padding: 30px 34px; border: 4px solid var(--ink); background: var(--paper); }
 .taller h2 { margin: 8px 0 6px; font: 400 40px/1 var(--head); text-transform: uppercase; }
